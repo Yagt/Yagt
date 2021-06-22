@@ -44,9 +44,9 @@
       "enable": false,
       "method": "POST",
       "name": "谷歌",
-      "requestBodyFormat": "X{\"q\": %TEXT%, \"sl\": \"ja\", \"tl\": \"zh-CN\"}",
-      "responseBodyPattern": "Rclass=\"t0\">([^<]*)<",
-      "url": "https://translate.google.cn/m"
+      "requestBodyFormat": "X{\"q\": %TEXT%, \"sl\": \"auto\", \"tl\": \"zh-CN\", \"client\": \"at\", \"dt\": \"t\"}",
+      "responseBodyPattern": "R\"(.*?)\"",
+      "url": "https://translate.google.cn/translate_a/single"
     },
     {
       "enable": false,
